@@ -2,8 +2,6 @@
 
 namespace DemoDualAPI.Models.DTOs
 {
-    public class Weather
-    {
         // Root myDeserializedClass = JsonSerializer.Deserialize<Root>(myJsonResponse);
         public class Forecast
         {
@@ -27,9 +25,5 @@ namespace DemoDualAPI.Models.DTOs
 
             [JsonPropertyName("description")]
             public string Description { get; set; }
-
-            [JsonPropertyName("forecast")]
-            public List<Forecast> Forecast { get; set; }
         }
     }
-}

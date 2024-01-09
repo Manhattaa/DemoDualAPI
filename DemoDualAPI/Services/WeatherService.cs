@@ -3,6 +3,11 @@ using System.Text.Json;
 
 namespace DemoDualAPI.Services
 {
+
+    public interface IWeatherService
+    {
+        Task<Weather> GetWeatherForCityAsync(string city);
+    }
     public class WeatherService
     {
         private HttpClient _client;

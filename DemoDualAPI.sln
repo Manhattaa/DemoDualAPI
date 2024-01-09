@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDualAPI", "DemoDualAPI\DemoDualAPI.csproj", "{0CE71E8C-47FF-4EAD-817D-C6500C0AE1E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDualAPITesting", "DemoDualAPITesting\DemoDualAPITesting.csproj", "{8FFDE63C-9ACF-4D77-AAC1-E9597F53E5D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0CE71E8C-47FF-4EAD-817D-C6500C0AE1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CE71E8C-47FF-4EAD-817D-C6500C0AE1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CE71E8C-47FF-4EAD-817D-C6500C0AE1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FFDE63C-9ACF-4D77-AAC1-E9597F53E5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFDE63C-9ACF-4D77-AAC1-E9597F53E5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFDE63C-9ACF-4D77-AAC1-E9597F53E5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFDE63C-9ACF-4D77-AAC1-E9597F53E5D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
